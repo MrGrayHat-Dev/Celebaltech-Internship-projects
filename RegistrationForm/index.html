@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+      <title> User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+    <body>
+        <div class="form-container">
+        <h2 align="center"><b>Enter The User Details</b> </h2>
+        
+        <form action="#" method="post">
+            <div class="form-design">
+                <label for="username">Username: </label>
+                <input type="text" id="username" placeholder="Alex" required><br>
+            </div> 
+            <div class="form-design">
+                <label for="email">Email ID: </label>
+                <input type="text" name="email" id="email" placeholder="abc@gmail.com" required><br>
+            </div>
+            <div class="form-design">
+                <label for="passwd">Password: </label>
+                <input type="password" name="passwd" id="passwd" placeholder="********" required> 
+            </div>
+            <div class="form-design">
+                <label for="birthdate">Birthdate: </label>
+                <input type="date" name="birthdate" id="birthdate" required>
+            </div>
+            <div class="form-design">
+                <label for="address">Address: </label>
+                <textarea name="address" id="address" rows="3"></textarea>
+            </div>
+            <div class="form-actions">
+                <button type="submit" style="cursor: pointer;border-radius: 7px;border-color: #4ea324; box-shadow: #231919; font: Calibri;color:  #0e0e0e; background-color: rgb(188, 230, 116); padding-left: 5px;">Submit</button>
+                <button type="reset" style="cursor: pointer;border-radius: 7px;border-color: rgb(124, 30, 30); font: Calibri; color:aliceblue; background-color: rgb(211, 27, 27); padding-left: 5px;">Reset</button>
+                <button type="button" onclick="window.close()" style="cursor: pointer; border-radius: 7px;border-color: rgb(124, 30, 30); font: Calibri; color:aliceblue; background-color: rgb(211, 27, 27); padding-left: 5px;">Cancel</button>
+            </div>
+        </div>
+    </form>
+    </body>
+</html>
