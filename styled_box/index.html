@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Styled Box</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: rgb(255, 252, 177);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                height: 20vh;
+            }
+            .styled-box{
+                background-color: rgb(253, 185, 84);
+                margin:auto;
+                border: 5px rgb(255, 121, 48);
+                border-radius: 5px;
+                padding: 20px 30px;
+                width: 300px;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(218, 102, 0);
+                transition: background-colour 0.2s ease;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                cursor: pointer;
+                border-style:inset;
+            }
+            .styled-box:hover{
+                background-color: rgb(249, 224, 124);
+            }
+        </style>
+        <div class="styled-box">
+            <h2>Welcome to my styled box</h2>
+        </div>
+        
+    </body>
+</html>
